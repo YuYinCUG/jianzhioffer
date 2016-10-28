@@ -2,7 +2,7 @@ struct ListNode
 {
   int m_nValue;
   ListNode* m_pNext;
-}
+};
 
 //在O(1)时间内删除链表结点
 void DeleteNode(ListNode** pListHead, ListNode* pToBeDeleted)
